@@ -1,0 +1,45 @@
+/* GLOBAL STYLING */
+
+body {
+  margin: 0;
+  font-family: monospace, sans-serif;
+}
+
+/* MAIN STYLING */
+
+.editor {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.tools {
+  width: 250px;
+  background: #ccc;
+}
+
+.tools__tool {
+  padding: 15px;
+}
+
+.tools__label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.tools__input {
+  width: 100%;
+}
+
+.images {
+  flex-grow: 1;
+  padding: 20px;
+  background: #777;
+}
+
+#canvas {
+  max-width: 100%;
+  max-height: 100%;
+}
